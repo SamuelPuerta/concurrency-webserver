@@ -50,7 +50,7 @@ experiment uses a fixed seed so that the request mix is reproducible across repl
 The campaign covers three scenarios:
 
 - Scenario A: homogeneous workload with only small files.
-- Scenario B: heterogeneous workload with mostly small files and some large files.
+- Scenario B: heterogeneous workload with 70% small files and 30% large files.
 - Scenario C: stress workload with a much higher request rate.
 
 For each scenario, the script executes 50 replicas under FIFO and 50 replicas under SFF.

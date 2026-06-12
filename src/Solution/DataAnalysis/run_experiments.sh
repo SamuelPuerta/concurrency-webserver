@@ -80,9 +80,9 @@ echo ""
 
 # ── Scenario parameters: scenario_name, small_ratio, rate, duration, server_threads ─
 declare -a SCENARIOS=(
-    "A:1.0:100:60:4"     # A: homogeneous (100% small), rate=100, duration=60s, threads=4
-    "B:0.8:100:60:4"     # B: heterogeneous (80% small), rate=100, duration=60s, threads=4
-    "C:0.8:500:60:8"     # C: stress (500 req/s, 80% small), threads=8
+    "A:1.0:100:60:8"     # A: homogeneous (100% small), rate=100, duration=60s, threads=8
+    "B:0.7:100:60:8"     # B: heterogeneous (70% small), rate=100, duration=60s, threads=8
+    "C:0.8:500:60:12"    # C: stress (500 req/s, 80% small), threads=12
 )
 
 POLICIES=("fifo" "sff")

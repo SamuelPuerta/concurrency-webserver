@@ -42,7 +42,7 @@ ALPHA = 0.05
 SCENARIOS = ["A", "B", "C"]
 SCENARIO_LABELS = {
     "A": "Scenario A: Homogeneous (100% small)",
-    "B": "Scenario B: Heterogeneous (80% small, 20% large)",
+    "B": "Scenario B: Heterogeneous (70% small, 30% large)",
     "C": "Scenario C: Stress (500 req/s)",
 }
 METRICS = {
